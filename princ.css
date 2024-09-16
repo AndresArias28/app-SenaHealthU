@@ -26,8 +26,11 @@ body {
 .buttons {
     display: flex;
     flex-direction: column;
-   
+   border-radius: 30px;
+   padding: 30px;
     margin-top: 30px;
+    
+    
 }
 
 .btn {
