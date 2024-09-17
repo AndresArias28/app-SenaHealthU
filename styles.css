@@ -1,18 +1,18 @@
 /* Estilos generales */
 body {
-    background-color: #333;
+    background-color: #fbf8f8;
     font-family: Arial, sans-serif;
-    color: white;
+    color: rgb(17, 16, 16);
     text-align: center;
 }
 
 .container {
     max-width: 400px;
     margin: 20px auto;
-    background-color: #222;
+    background-color: #ece7e7;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
 }
 
 /* Imagen superior */
