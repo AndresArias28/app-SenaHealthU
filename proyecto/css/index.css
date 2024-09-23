@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,sans-serif;
+    background-color: #1E201E;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #444;
+    
+
+    
+}
+.puntaje{
+    text-align: center;
+    font-size: 14px;
+    background-color: #2E383F;
+    width: 90px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.meta{
+    text-align: center;
+    font-size: 14px;
+    background-color:#2E383F;
+    width: 110px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 17px;
+    
+}
+.logo{
+    text-align: center;
+    flex: 01;
+    padding: 0 20px;
+}
+.logo img {
+    width: 90%;
+}
+.titulo{
+    text-align: center;
+    margin: 20px ;
+    color: #39A900;
+}
+.desafios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5px;
+    width: 98%;
+    height: 600px;
+}
+.fila-desafios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    width: 80%;
+    position: relative;
+}
+.desafio{
+    width: 60px;
+    height: 60px;
+    background-color: #333;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 20px;
+}
+.desafio.completado {
+    background-color: #4caf50;
+}
+.desafio.bloqueado ::before{
+    background-color: #2E383F; /* Gris para los retos bloqueados */
+}
+.desafio img {
+    width: 40px;
+    height: 40px;
+}
+/* Conectar los retos con líneas */
+.fila-desafios::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color:#39A900; /* Color de la línea */
+    z-index: -1;
+}
+
+.fila-desafios:first-child::before {
+    display: none;
+}
+.fila-desafios:nth-child(even) {
+    justify-content: flex-start;
+}
+
+.fila-desafios:nth-child(odd) {
+    justify-content: flex-end;
+}
+.pesa {
+    width: 40px; 
+    height: 40px;
+}
+.reto2{
+    width: 40px;
+    height: 40px;
+    padding: 3px;
+    margin: 10px auto;
+    margin-top: 0px;
+
+}
+/* Estilos del pie de página */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2E383F; /* Color de resaltar */
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-icon {
+    color: #39A900; /* Verde principal */
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .footer-icon .icono {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 5px;
+  }
+  
+  .footer-icon:hover {
+    color: white; /* Cambia a blanco al pasar el cursor */
+  }
+  
