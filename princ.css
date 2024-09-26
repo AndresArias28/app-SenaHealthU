@@ -1,4 +1,4 @@
-
+@media (max-width: 375px) {
 body {
     background-color: #1E201E;
     font-family: Arial, sans-serif;
@@ -29,6 +29,7 @@ body {
    border-radius: 30px;
    padding: 30px;
     margin-top: 30px;
+   
     
     
 }
@@ -51,4 +52,5 @@ body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 24px;
+}
 }

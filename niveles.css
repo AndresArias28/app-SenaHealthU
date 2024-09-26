@@ -1,4 +1,4 @@
-
+@media (max-width: 375px) {
 body {
     background-color: #1a1a1a;
     color: white;
@@ -67,4 +67,6 @@ body {
     padding: 5px 10px;
     color: black;
     margin-top: 5px;
+}
+
 }
