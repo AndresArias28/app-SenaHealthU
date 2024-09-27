@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #39A900;
+    color: white;
+}
+
+.back-btn span, .menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 18px;
+}
+
+.exercise-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.exercise-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b9227;
+    border-radius: 10px;
+    color: white;
+}
+
+.exercise-card3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b9227;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.exercise-info h2 {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.exercise-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.exercise-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.checkmark {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    color: white;
+    background-color: #599b38;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #39A900;
+    color: white;
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+.exercise-image img{
+    margin-right: 100px;
+}
+.footer-item {
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.perfil{
+    height:50px ;
+    width: 50px;
+}
+.gorro{
+    height:50px ;
+    width: 50px;
+
+
+}
+.copa{
+    height:50px ;
+    width: 50px;
+
+}
+
+@media (min-width: 768px) {
+    .exercise-card {
+        padding: 20px;
+    }
+
+    .exercise-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .exercise-info h2 {
+        font-size: 18px;
+    }
+}

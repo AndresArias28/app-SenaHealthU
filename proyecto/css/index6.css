@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.exercise-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #1E201E;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.option-button {
+    background-color: #39A900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.inputs-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px 20px;
+    gap: 15px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #39A900;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+    height: 100px;
+}
+
+.input-box label {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: #39A900;
+    color: white;
+}
+
+.footer-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .exercise-image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .input-box {
+        width: 180px;
+        height: 120px;
+    }
+}

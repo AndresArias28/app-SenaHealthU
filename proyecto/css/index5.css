@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: #1E201E;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #F6F6F6;
+}
+
+.back-btn span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.nivel-btn {
+    margin-top: 20px;
+    background-color: #39A900;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.menu-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.container {
+    margin: 20px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    height: 100px; /* Altura de las tarjetas */
+}
+
+.card .left {
+    background-color: #1E201E;
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 26px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.card .right {
+    background-color: #39A900;
+    color: white;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card p {
+    margin: 0;
+    font-size: 14px;
+    color: #F6F6F6;
+}
+.perfil{
+    height:50px ;
+    width: 50px;
+}
+.gorro{
+    height:50px ;
+    width: 50px;
+
+
+}
+.copa{
+    height:50px ;
+    width: 50px;
+
+}
+.card img {
+    max-width: 80px;
+    height: auto;
+}
+.left img{
+    margin-left: 40px;
+    width: 35px;
+    height: 35px;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #39A900;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-item {
+    text-align: center;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .card {
+        padding: 20px;
+    }
+    
+    .card img {
+        display: block;
+    }
+}

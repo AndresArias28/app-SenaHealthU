@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F6F6F6;
+}
+
+.back-btn span {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.congratulations-section {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.trophy-image {
+    width: 180px;
+    height: auto;
+}
+
+h1 {
+    font-size: 24px;
+    color: #1E201E;
+    margin: 20px 0;
+}
+
+.challenge-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #39A900;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 10px 0;
+    width: 90%;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.info-item span {
+    font-size: 14px;
+}
+
+.info-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.action-buttons {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 90%;
+}
+
+.challenge-btn, .validate-btn {
+    background-color: #39A900;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #39A900;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-item {
+    text-align: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .trophy-image {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .challenge-info {
+        width: 60%;
+    }
+
+    .challenge-btn, .validate-btn {
+        width: 50%;
+        font-size: 18px;
+    }
+}

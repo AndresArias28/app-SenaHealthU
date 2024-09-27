@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #F6F6F6;
+    color: #1E201E;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Encabezado y descripción combinados en un solo bloque verde */
+.header-description {
+    background-color: #39A900; /* Fondo verde principal */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    align-self: flex-start;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu-icon {
+    font-size: 1.5rem;
+    color: white;
+    align-self: last baseline;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Tarjetas de ejercicios con color verde secundario */
+.exercise-card {
+    background-color: #39A900; /* Color verde secundario */
+    display: flex;
+    width: 100%;
+    height:200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+}
+
+.exercise-card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.footer {
+    background-color: #39A900;
+    padding: 15px;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.gorro{
+    height:50px ;
+    width: 50px;
+
+
+}
+.exercise-text h1{
+    font-size: 4rem;
+}
+
+.img1 img{
+    background-color: red;
+    width: 300px;
+    height: 150px;
+}
+
+.content{
+    margin: 50px;
+}
+.exercise-card{
+    margin: 20px;
+}
+
+.footer p {
+    font-size: 2rem;
+}
+
+@media(max-width:810px){
+   
+    .exercise-text h1{
+        font-size: 2rem;
+    }
+.img1 img{
+    width: 100px;
+    height: 190px;
+}
+
+.footer p {
+    font-size: 20px;
+}
+
+}
+
+@media(max-width:1074px){
+    .exercise-text h1{
+        font-size:2rem;
+    }
+}
+
+@media(min-width:810){
+
+}
+
+.perfil{
+    height:50px ;
+    width: 50px;
+}
+
+.copa{
+    height:50px ;
+    width: 50px;
+
+}
